@@ -1,5 +1,7 @@
+#!/usr/bin/node
+
 function add(a, b) {
-    console.log (a + b)
+  return a + b;
 }
 
 const first = parseInt(process.argv[2]);
