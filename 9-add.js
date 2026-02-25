@@ -1,4 +1,8 @@
 function add(a, b) {
     console.log (a + b)
 }
-add(12, 13)
+
+const first = parseInt(process.argv[2]);
+const second = parseInt(process.argv[3]);
+
+console.log(add(first, second));
